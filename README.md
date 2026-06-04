@@ -28,12 +28,12 @@
 2. **Enable the Firewall Service:**
    Activated the firewall to enforce policy filtering on system boot:
    ```Bash
-      sudo ufw enable
+   sudo ufw enable
    
 3. **Block Inbound Telnet Traffic (Port 23):**
 Injected a rule to drop all incoming TCP packets attempting to connect via Telnet:
 ```Bash
-   sudo ufw deny in 23/tcp
+sudo ufw deny in 23/tcp
 ```
 
 4. **Allow Secure Shell Traffic (Port 22):**
@@ -75,7 +75,7 @@ When a packet hits the interface, the firewall scans its rules from top to botto
 
 
 
-4. **Interview Q&A **
+**4. Interview Q&A**
 
 **Q1. What is a firewall?**
 **Answer:**  A firewall is a software or hardware-based network security system that monitors and filters incoming and outgoing network traffic based on an organization's previously established security policies.  
